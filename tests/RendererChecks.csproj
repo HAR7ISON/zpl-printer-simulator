@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net10.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="../src/ZplSimulator/Config.cs" Link="Config.cs" />
+    <Compile Include="../src/ZplSimulator/Renderer.cs" Link="Renderer.cs" />
+    <PackageReference Include="BinaryKits.Zpl.Viewer" Version="1.3.1" />
+    <PackageReference Include="SkiaSharp.NativeAssets.Linux.NoDependencies" Version="3.119.1" Condition="$([MSBuild]::IsOSPlatform('Linux'))" />
+  </ItemGroup>
+</Project>

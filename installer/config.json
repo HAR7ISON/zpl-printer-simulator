@@ -1,0 +1,14 @@
+{
+  "PrinterName": "ZPL Simulator",
+  "TargetPrinter": "Microsoft Print to PDF",
+  "Port": 19100,
+  "OutputDirectory": "C:\\ProgramData\\ZplSimulator\\Output",
+  "PrintToFile": true,
+  "PaperMode": "PrinterDefault",
+  "DotsPerMillimeter": 8,
+  "LabelWidthMm": 101.6,
+  "LabelHeightMm": 152.4,
+  "MaxJobBytes": 16777216,
+  "MaxPages": 100,
+  "RejectUnknownCommands": false
+}
